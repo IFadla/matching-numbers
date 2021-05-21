@@ -1,0 +1,42 @@
+.container-lose {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $purple;
+  z-index: 1;
+  transition: all .5s ease-out;
+  transform: translateY(-100vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // display: none;
+
+  &.lose {
+  transform: translateY(0);
+  }
+
+  .title {
+    font-weight: 800;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .button-play {
+    margin-top: 2rem;
+    // border: 1px solid blue;
+    width: 80%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $orange;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}

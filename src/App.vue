@@ -180,6 +180,7 @@ export default {
         this.isLose = false;
         this.isPlay = false;
         this.isTimer = 0;
+        this.myNum = 0;
         this.isWin = true;
         this.progress = 0;
         console.log("100 woy");
@@ -201,6 +202,7 @@ export default {
       console.log("hall");
       this.isPlay = true;
       this.timer = 10;
+      this.myNum = 0,
       this.progress = 0;
       this.conHeart.heart1 = true;
       this.conHeart.heart2 = true;
@@ -213,6 +215,7 @@ export default {
       console.log("hall");
       this.isPlay = true;
       this.timer = 10;
+      this.myNum = 0,
       this.progress = 0;
       this.conHeart.heart1 = true;
       this.conHeart.heart2 = true;
